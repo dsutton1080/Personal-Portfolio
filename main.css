@@ -7,6 +7,7 @@
     list-style-type: none;
     margin: 4%;
     float: right;
+    text-decoration: none;
 }
 
 
@@ -32,11 +33,14 @@
     color: #4717F6;
 }
 
-a:hover {
+#menuItems:hover {
     text-decoration: none;
     background-color: black;
 }
 
+a:link{
+    text-decoration: none;
+}
 
 footer {
     width: 70%;
