@@ -21,12 +21,17 @@
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
     padding: 4em 2em 4em;
 }
 
 #whiteText {
     color: white;
+}
+
+#subtitles {
+    font-style: italic;
+    text-align: left;
 }
 
 #headers {
