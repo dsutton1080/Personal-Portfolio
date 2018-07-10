@@ -29,13 +29,13 @@
     color: white;
 }
 
-#headers {
-    background-color: yellow;
+#block {
     padding: 20px;
     display: none;
+    font-size: 1vw;
 }
 
-#emailBlock:hover +  {
+#emailBlock:hover + #block {
   display: block;
 }
 
