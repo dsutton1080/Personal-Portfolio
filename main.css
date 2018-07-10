@@ -29,6 +29,16 @@
     color: white;
 }
 
+#headers {
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+}
+
+#emailBlock:hover +  {
+  display: block;
+}
+
 #subtitles {
     font-style: italic;
     text-align: left;
