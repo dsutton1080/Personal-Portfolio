@@ -1,6 +1,8 @@
 #menu {
-    background-color: #4717F6;
+    background-color: #800020;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #menuItems{
@@ -10,6 +12,12 @@
     text-decoration: none;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    align-content: center;
+}
 
 #body {
 
@@ -17,7 +25,6 @@
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
@@ -35,28 +42,24 @@
     font-size: 1.5vw;
 }
 
-#emailBlock {
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-#emailBlock:hover + #block {
-  display: block;
-}
-
 #subtitles {
     font-style: italic;
     text-align: left;
 }
 
 #headers {
-    color: #4717F6;
+    color: #800020;
 }
 
 #bodyHeaders {
     color: black;
     position: absolute;
     bottom: 0;
+    text-align: center;
+    font-size: 2.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #menuItems:hover {
@@ -70,7 +73,8 @@ a:link{
 
 footer {
     width: 70%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul li {
@@ -88,7 +92,10 @@ ul li {
 }
 
 #profilePic {
+    display: block;
     width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #bodyContent {
@@ -98,7 +105,8 @@ ul li {
 table {
     border-collapse: collapse;
     width: 80%;
-    margin-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 td {
