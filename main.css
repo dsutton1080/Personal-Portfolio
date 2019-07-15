@@ -21,14 +21,13 @@
 
 #body {
 
-    background: #e6e9e9;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     padding: 4em 2em 4em;
 }
 
@@ -116,4 +115,13 @@ td {
 
 tr:nth-child(odd) {
     background-color: white;
+}
+
+h4 {
+    text-align: left;
+    color: black;
+}
+
+h5 {
+    text-align: center;
 }
